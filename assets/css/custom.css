@@ -1,14 +1,14 @@
 .main-banner-content .content h1 {
-    color: #033553;
+    color: red;
 }
 
 .navbar-nav .nav-item a.active {
-    color: #031e2e!important;
+    color: red!important;
     font-weight: bold !important;
 }
 
 .main-banner-content .content .default-btn {
-    background-color: #00609d !important;
+    background-color: orange !important;
 }
 
 .title-center{
@@ -56,7 +56,7 @@ a.revs{
     color: white;
 }
 a.revs:hover{
-    color: rgb(170, 189, 245);
+    color:orange;
     text-decoration: underline;
 
 }
@@ -66,8 +66,8 @@ html{
 }
 
 a.nav-link {
-    color: #031e2e !important;
+    color: red !important;
 }
 a.nav-link:hover {
-    color: blue !important;
+    color: orange !important;
 }

@@ -43,14 +43,21 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+h1,h2 {
+  font-family: "Lobster", sans-serif ;
+}
+
 body {
   color: #080a3c;
   background-color: #ffffff;
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -178,7 +185,7 @@ p:last-child {
 
 .section-title h2 span {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .section-title.text-left {
@@ -189,7 +196,7 @@ p:last-child {
 
 .section-title.text-left .sub-title {
   font-weight: 600;
-  color: #031e2e;
+  color: red;
   display: block;
   margin-bottom: 10px;
 }
@@ -203,7 +210,7 @@ p:last-child {
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #031e2e;
+  background-color: red;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -304,7 +311,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #031e2e;
+  background-color: red;
   -webkit-transition: width 0.6s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.6s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -318,7 +325,7 @@ p:last-child {
 }
 
 .optional-btn:hover::before, .optional-btn:focus::before {
-  border-color: #031e2e;
+  border-color: red;
 }
 
 .optional-btn:hover span, .optional-btn:focus span {
@@ -332,7 +339,7 @@ Preloader Area CSS
 .preloader-area {
   position: fixed;
   top: 0;
-  background-color: #031e2e;
+  background-color: red;
   left: 0;
   width: 100%;
   height: 100%;
@@ -569,7 +576,7 @@ Navbar Area CSS
 }
 
 .navbar-area.navbar-style-two .spacle-nav .navbar .others-options .optional-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .navbar-area.navbar-style-two .spacle-nav .navbar .others-options .optional-btn::before {
@@ -1101,7 +1108,7 @@ Main Banner Area CSS
 
 .main-banner-content .content h1 span {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .main-banner-content .content p {
@@ -1115,7 +1122,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .content .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .banner-content {
@@ -1136,7 +1143,7 @@ Main Banner Area CSS
 
 .banner-content .content h1 span {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .banner-content .content p {
@@ -1150,13 +1157,13 @@ Main Banner Area CSS
 }
 
 .banner-content .content .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .banner-image {
   height: 100vh;
   border-radius: 0 0 0 80px;
-  background-color: #031e2e;
+  background-color: red;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1239,7 +1246,7 @@ Main Banner Area CSS
   height: 100%;
   width: 100%;
   border-radius: 0 0 0 80px;
-  background-color: #031e2e;
+  background-color: red;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1668,11 +1675,11 @@ Main Banner Area CSS
 }
 
 .banner-img.banner-video .video-box .video-btn:hover, .banner-img.banner-video .video-box .video-btn:focus {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .banner-img.banner-video .video-box .video-btn:hover::after, .banner-img.banner-video .video-box .video-btn:hover::before, .banner-img.banner-video .video-box .video-btn:focus::after, .banner-img.banner-video .video-box .video-btn:focus::before {
-  border-color: #031e2e;
+  border-color: red;
 }
 
 /* Animate banner image */
@@ -1740,7 +1747,7 @@ About Area CSS
 =================================================*/
 .about-content .sub-title {
   display: block;
-  color: #031e2e;
+  color: red;
   margin-bottom: 7px;
 }
 
@@ -1980,7 +1987,7 @@ Services Area CSS
 
 .services-content .content h2 span {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .services-content .content p {
@@ -1994,7 +2001,7 @@ Services Area CSS
 }
 
 .services-content .content .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .services-content .content.left-content {
@@ -2083,7 +2090,7 @@ Video Presentation Area CSS
           transform: translateY(-50%);
   width: 80px;
   height: 80px;
-  background-color: #031e2e;
+  background-color: red;
   border-radius: 5px;
   color: #ffffff;
   font-size: 60px;
@@ -2102,7 +2109,7 @@ Video Presentation Area CSS
   bottom: 0;
   left: 0;
   border-radius: 5px;
-  border: 1px solid #031e2e;
+  border: 1px solid red;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2435,7 +2442,7 @@ FunFacts Area CSS
 }
 
 .single-funfacts h3 {
-  color: #031e2e;
+  color: red;
   margin-bottom: 0;
   font-size: 30px;
   font-weight: 600;
@@ -2508,7 +2515,7 @@ FunFacts Area CSS
 }
 
 .contact-cta-box .default-btn span {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .contact-cta-box .default-btn:hover i, .contact-cta-box .default-btn:focus i {
@@ -2684,24 +2691,24 @@ Features Area CSS
 }
 
 .col-lg-4:nth-child(1) .single-features-box .icon {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .col-lg-4:nth-child(1) .single-features-box .icon::before {
-  border-color: #031e2e;
+  border-color: red;
 }
 
 .col-lg-4:nth-child(1) .features-box .icon {
   background-color: #ffd7cb;
-  color: #031e2e;
+  color: red;
 }
 
 .col-lg-4:nth-child(1) .features-box .back-icon {
-  color: #031e2e;
+  color: red;
 }
 
 .col-lg-4:nth-child(1) .features-box:hover .icon {
-  background-color: #031e2e;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -2993,7 +3000,7 @@ Features Area CSS
 }
 
 .bg-ff612f {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .bg-9c27b0 {
@@ -3139,15 +3146,15 @@ Team Area CSS
 
 .col-lg-3:nth-child(1) .single-team-box .image .social li a:hover, .col-lg-3:nth-child(7) .single-team-box .image .social li a:hover {
   color: #ffffff;
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .col-lg-3:nth-child(1) .single-team-box .content span, .col-lg-3:nth-child(7) .single-team-box .content span {
-  color: #031e2e;
+  color: red;
 }
 
 .col-lg-3:nth-child(1) .single-team-box:hover .image, .col-lg-3:nth-child(7) .single-team-box:hover .image {
-  border-color: #031e2e;
+  border-color: red;
 }
 
 .col-lg-3:nth-child(3) .single-team-box .image, .col-lg-3:nth-child(5) .single-team-box .image {
@@ -3219,7 +3226,7 @@ Team Area CSS
   height: 32px;
   line-height: 32px;
   text-align: center;
-  background-color: #031e2e;
+  background-color: red;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
@@ -3356,7 +3363,7 @@ Feedback Area CSS
   font-size: 17px;
   display: inline-block;
   margin-right: -1px;
-  color: #031e2e;
+  color: red;
 }
 
 .single-feedback-item .feedback-desc .client-info h3 {
@@ -3435,7 +3442,7 @@ Feedback Area CSS
   bottom: 0;
   border-radius: 50%;
   margin: 2px;
-  background-color: #031e2e;
+  background-color: red;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: 0.5s;
@@ -3523,7 +3530,7 @@ Feedback Area CSS
   font-size: 17px;
   display: inline-block;
   margin-right: -1px;
-  color: #031e2e;
+  color: red;
 }
 
 .single-testimonials-item::before {
@@ -3611,7 +3618,7 @@ Feedback Area CSS
 
 .single-testimonials-box .client-info .title h3 {
   margin-bottom: 0;
-  color: #031e2e;
+  color: red;
   font-size: 18px;
   font-weight: 600;
 }
@@ -3662,7 +3669,7 @@ Feedback Area CSS
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #031e2e;
+  background-color: red;
   border-radius: 50%;
   margin: 2px;
   opacity: 0;
@@ -3672,7 +3679,7 @@ Feedback Area CSS
 }
 
 .testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span, .testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span {
-  border-color: #031e2e;
+  border-color: red;
 }
 
 .testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span::before, .testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
@@ -3834,7 +3841,7 @@ Pricing Area CSS
 }
 
 .pricing-list-tab .tabs li a i {
-  color: #031e2e;
+  color: red;
   margin-right: 2px;
   position: absolute;
   font-size: 18px;
@@ -3870,7 +3877,7 @@ Pricing Area CSS
 }
 
 .col-lg-4:nth-child(1) .single-pricing-table .btn-box .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn {
@@ -3878,11 +3885,11 @@ Pricing Area CSS
 }
 
 .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn span {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:hover i, .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:focus i {
@@ -3905,7 +3912,7 @@ FAQ Area CSS
 
 .faq-accordion h2 span {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .faq-accordion .accordion {
@@ -3947,7 +3954,7 @@ FAQ Area CSS
 
 .faq-accordion .accordion .accordion-title.active i::before {
   content: "\eaf8";
-  color: #031e2e;
+  color: red;
 }
 
 .faq-accordion .accordion .accordion-content {
@@ -3955,7 +3962,7 @@ FAQ Area CSS
   position: relative;
   padding: 15px 20px;
   font-size: 14px;
-  border-top: 1px solid #031e2e;
+  border-top: 1px solid red;
   color: #4a6f8a;
 }
 
@@ -4182,7 +4189,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-image .date i {
-  color: #031e2e;
+  color: red;
   margin-right: 1px;
   font-size: 16px;
   position: relative;
@@ -4295,7 +4302,7 @@ Blog Area CSS
 
 .blog-notes p a {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .blog-notes p a:hover {
@@ -4338,7 +4345,7 @@ Blog Area CSS
 }
 
 .single-blog-post-item .post-content .category:hover {
-  color: #031e2e;
+  color: red;
 }
 
 .single-blog-post-item .post-content h3 {
@@ -4376,7 +4383,7 @@ Blog Area CSS
 }
 
 .single-blog-post-item .post-content .post-content-footer li .post-author span {
-  color: #031e2e;
+  color: red;
 }
 
 .single-blog-post-item .post-content .post-content-footer li i {
@@ -4403,7 +4410,7 @@ Blog Area CSS
 }
 
 .blog-slides.owl-theme .owl-nav [class*=owl-] {
-  color: #031e2e;
+  color: red;
   font-size: 35px;
   margin: 0;
   width: 45px;
@@ -4422,7 +4429,7 @@ Blog Area CSS
 }
 
 .blog-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #031e2e;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -4460,7 +4467,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #031e2e;
+  color: red;
   margin-right: 2px;
   position: relative;
   top: 1px;
@@ -4552,7 +4559,7 @@ Blog Details Area CSS
 .blog-details-desc .article-footer .article-tags a {
   display: inline-block;
   color: #ffffff;
-  background-color: #031e2e;
+  background-color: red;
   padding: 4px 12px;
   border-radius: 5px;
   margin-right: 3px;
@@ -4782,7 +4789,7 @@ Blog Details Area CSS
 
 .comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .spacle-post-navigation {
@@ -5063,7 +5070,7 @@ blockquote::after, .blockquote::after {
 Page Title Area CSS
 =================================================*/
 .page-title-area {
-  background-color: #031e2e;
+  background-color: red;
   position: relative;
   z-index: 1;
   padding-top: 130px;
@@ -5271,7 +5278,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_search form button:hover {
-  background-color: #031e2e;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -5690,7 +5697,7 @@ Login Area CSS
 }
 
 .login-content .login-form form .forgot-password a:hover {
-  color: #031e2e;
+  color: red;
 }
 
 .login-content .login-form form .connect-with-social {
@@ -5948,7 +5955,7 @@ Features Area CSS
   border-radius: 30px;
   text-align: center;
   padding: 70px;
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .subscribe-content h2 {
@@ -6057,7 +6064,7 @@ Features Area CSS
 
 .subscribe-content form button i {
   margin-right: 2px;
-  color: #031e2e;
+  color: red;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -6376,11 +6383,11 @@ Contact Area CSS
 }
 
 .contact-info .contact-info-content h2 a:hover {
-  color: #031e2e;
+  color: red;
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child) {
-  color: #031e2e;
+  color: red;
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
@@ -6633,7 +6640,7 @@ Footer Area CSS
 
 .copyright-area p a {
   display: inline-block;
-  color: #031e2e;
+  color: red;
 }
 
 .copyright-area p a:hover {
@@ -6732,7 +6739,7 @@ Go Top CSS
 }
 
 .go-top:hover {
-  background-color: #031e2e;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -6795,7 +6802,7 @@ SaaS Home Page CSS
 }
 
 .saas-banner .hero-content .default-btn i {
-  color: #031e2e;
+  color: red;
 }
 
 .saas-banner .hero-content .default-btn:hover i {
@@ -6803,7 +6810,7 @@ SaaS Home Page CSS
 }
 
 .saas-banner .hero-content .default-btn span {
-  background-color: #031e2e;
+  background-color: red;
 }
 
 .saas-banner .hero-content .video-btn {
@@ -6823,7 +6830,7 @@ SaaS Home Page CSS
   position: relative;
   margin-left: inherit;
   background: #ffffff;
-  color: #031e2e;
+  color: red;
   height: 35px;
   width: 35px;
   display: inline-block;
@@ -7533,14 +7540,14 @@ Services Area CSS
 
 .services-btn-box .default-btn {
   background-color: transparent;
-  border: 1px solid #031e2e;
-  color: #031e2e;
+  border: 1px solid red;
+  color: red;
   padding: 11.5px 35px 11px 65px;
 }
 
 .services-btn-box .default-btn i {
   left: 35px;
-  color: #031e2e;
+  color: red;
 }
 
 .services-btn-box .default-btn:hover {
@@ -7603,7 +7610,7 @@ Case Studies Area CSS
   height: 40px;
   line-height: 48px;
   text-align: center;
-  background-color: #031e2e;
+  background-color: red;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
@@ -7633,7 +7640,7 @@ Case Studies Area CSS
 }
 
 .case-studies-slides.owl-theme .owl-nav [class*=owl-] {
-  color: #031e2e;
+  color: red;
   font-size: 35px;
   margin: 0;
   width: 45px;
@@ -7652,7 +7659,7 @@ Case Studies Area CSS
 }
 
 .case-studies-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #031e2e;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -7693,7 +7700,7 @@ Company Preview Area CSS
   background-color: rgba(255, 255, 255, 0.79);
   border-radius: 50%;
   position: relative;
-  color: #031e2e;
+  color: red;
   font-size: 100px;
   z-index: 1;
   margin-left: auto;
@@ -7751,7 +7758,7 @@ Let's Talk Area CSS
 =================================================*/
 .lets-talk-content .sub-title {
   font-weight: 600;
-  color: #031e2e;
+  color: red;
   display: block;
   margin-bottom: 10px;
 }

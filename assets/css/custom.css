@@ -1,0 +1,73 @@
+.main-banner-content .content h1 {
+    color: #033553;
+}
+
+.navbar-nav .nav-item a.active {
+    color: #031e2e!important;
+    font-weight: bold !important;
+}
+
+.main-banner-content .content .default-btn {
+    background-color: #00609d !important;
+}
+
+.title-center{
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.title-left {
+        text-align: left;
+        margin-bottom: 35px;
+        font-weight: 600 !important;
+}
+
+.main-banner-content .content .default-btn i {
+    color: #ffffff;
+}
+
+.services-content .content .default-btn i {
+    color: white;
+}
+
+.feature-box {
+    font-weight: 600;
+}
+
+a.whitelink{
+color: white !important;
+}
+
+.section-title h2 span{
+    color: #ffffff;
+}
+
+.accordion-content {
+    font-weight: 500;
+}
+
+i.bx.bxs-star
+{
+    color: orange !important;
+}
+
+a.revs{
+    color: white;
+}
+a.revs:hover{
+    color: rgb(170, 189, 245);
+    text-decoration: underline;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a.nav-link {
+    color: #031e2e !important;
+}
+a.nav-link:hover {
+    color: blue !important;
+}
